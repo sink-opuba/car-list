@@ -1,0 +1,25 @@
+{
+  "name": "car-list",
+  "version": "1.0.0",
+  "description": "A car listing platform",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "3.4.1",
+    "json-server": "0.15.1",
+    "bootstrap": "4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sink-opuba/name-later.git"
+  },
+  "author": "Sinkopere Opuba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sink-opuba/name-later/issues"
+  },
+  "homepage": "https://github.com/sink-opuba/name-later#readme"
+}
