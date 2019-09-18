@@ -1,0 +1,25 @@
+.login-form {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    width: 30rem;
+    color: #fff;
+    height: 40rem;
+    margin: -10rem auto;
+    font-size: 2rem;
+}
+.login-container {
+    margin-bottom: 10rem;
+}
+.btn-login {
+    margin-right: 4rem;
+    margin-left: 3rem;
+}
+.btn-login, .btn-signup {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin-top: 7rem;
+}
+.login-form input[placeholder] {
+    font-size: 1.3rem;
+}

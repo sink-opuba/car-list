@@ -1,0 +1,61 @@
+.car-name-box {
+  width: 60%;
+  margin: 7rem auto;
+}
+.car-name-box h1 {
+  font-size: 3rem;
+}
+.car-name-box span {
+  width: 70%;
+  font-size: 2.4rem;
+  font-weight: 100;
+}
+.details-box {
+  margin: 3rem 10rem;
+  display: flex;
+  position: relative;
+  color: #000;
+}
+.details-box h2 {
+  font-weight: 600;
+}
+.car-image {
+  margin-right: 5rem;
+}
+.overview-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.overview-text {
+  width: 100%;
+  visibility: hidden;
+}
+.features {
+  padding: 1.5rem;
+}
+
+.admin_box {
+  margin-bottom: 2rem;
+  /* visibility: hidden; */
+}
+.back-arrow-btn {
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+}
+
+
+.back-arrow-btn:link,
+.back-arrow-btn:visited {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: .5rem;
+    transition: all .2s;
+    /* position: relative; */
+    font-size: 1rem;
+}
+
+.back-arrow-btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); } 

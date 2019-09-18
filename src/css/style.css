@@ -1,0 +1,13 @@
+/* import css files from base folder */
+@import "base/base.css";
+@import "base/typography.css";
+@import "base/animations.css";
+
+/*import css files from componnents folder */
+
+@import "components/header.css";
+@import "components/main.css";
+@import "components/details.css";
+@import "components/button.css";
+@import "components/login.css";
+@import "components/add_new_vehicle.css";
