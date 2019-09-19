@@ -13,7 +13,7 @@
 .details-box {
   margin: 3rem 10rem;
   display: flex;
-  position: relative;
+  /* position: relative; */
   color: #000;
 }
 .details-box h2 {
@@ -28,7 +28,6 @@
 }
 .overview-text {
   width: 100%;
-  visibility: hidden;
 }
 .features {
   padding: 1.5rem;
@@ -36,12 +35,12 @@
 
 .admin_box {
   margin-bottom: 2rem;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .back-arrow-btn {
     position: absolute;
-    right: 0px;
-    bottom: 5px;
+    right: 1rem;
+    bottom: 1rem;
 }
 
 
