@@ -1,10 +1,13 @@
 //retrieve object from localstorage and populate DOM
  const car = JSON.parse(localStorage.car);
-  const carHeader = `<h1>
+ 
+ //Inject formated HTML to specific portions of page 
+ const carHeader = `<h1>
           ${car.year} ${car.colorType} ${car.transmission} ${car.make} ${car.model}
           <span id="price_data"> ₦${car.price}</span>
         </h1>`;
 $('.car-name-box').append(carHeader);
+
 const carDetails = `<div class="car-image">
           <img src=${car.imageUrl} alt="" width="200px" />
         </div>

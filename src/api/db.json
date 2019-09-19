@@ -169,14 +169,88 @@
       "mileage": "10000",
       "transmission": "Automatic",
       "description": "This is 2018 BMW X6 Foreign used Location is Port Harcourt Mileage is 10k km"
+    },
+    {
+      "make": "Audi",
+      "model": "80EX",
+      "year": "2019",
+      "bodyType": "Hatchbacks",
+      "fuel": "1",
+      "price": "598000",
+      "colorType": "Yellow",
+      "interior": "Cloth",
+      "condition": "Foreign Used",
+      "engineSize": "5",
+      "imageUrl": "/images/inventory007.jpg",
+      "mileage": "485940",
+      "transmission": "Manual",
+      "description": "Ther",
+      "id": 11
+    },
+    {
+      "make": "Mercedes-benz",
+      "model": "80EX",
+      "year": "2018",
+      "bodyType": "Station Wagons",
+      "fuel": "3",
+      "price": "48400",
+      "colorType": "Purple",
+      "interior": "Leather",
+      "condition": "Foreign Used",
+      "engineSize": "1.5",
+      "imageUrl": "/images/inventory008.jpg",
+      "mileage": "",
+      "transmission": "",
+      "description": "A new car that was just posted",
+      "id": 12
+    },
+    {
+      "make": "Volkswagen",
+      "model": "80EX",
+      "year": "2011",
+      "bodyType": "Machinery and Tractors",
+      "fuel": "1",
+      "price": "598000",
+      "colorType": "Other",
+      "interior": "Other",
+      "condition": "Brand New",
+      "engineSize": "5",
+      "imageUrl": "/images/inventory005.jpg",
+      "mileage": "485940",
+      "transmission": "Manual",
+      "description": "a descriptin",
+      "id": 13
+    },
+    {
+      "make": "Tissan",
+      "model": "80EX",
+      "year": "2018",
+      "bodyType": "Pickups",
+      "fuel": "2",
+      "price": "598000",
+      "colorType": "Maroon",
+      "interior": "Leather",
+      "condition": "Foreign Used",
+      "engineSize": "5",
+      "imageUrl": "/images/inventory001.jpg",
+      "mileage": "485940",
+      "transmission": "",
+      "description": "Ano item on the database",
+      "id": 14
     }
   ],
   "users": [
-    { "email": "admin@yahoo.com", "password": "password", "isAdmin": true },
     {
-      "email": "user@yahoo.com",
-      "password": "password1",
-      "isAdmin": false
+      "email": "osinkopere@yahoo.com",
+      "password": "sink",
+      "isAdmin": "false",
+      "id": 1
+    },
+    {
+      "email": "osinkopere@yahoo.com",
+      "password": "skin",
+      "isAdmin": "false",
+      "id": 2
     }
   ]
 }
