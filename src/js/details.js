@@ -1,5 +1,5 @@
 //retrieve object from localstorage and populate DOM
- const car = JSON.parse(localStorage.car);
+const car = JSON.parse(localStorage.car);
 
 const BASE_URI = "http://localhost:3000";
  
@@ -63,6 +63,7 @@ if(localStorage.email) {
 
 
 $(document).ready(function() {
+  //DELETE REQUEST
   $('#delete_car_button').click(function(){
    console.log('button clicked')
     $.ajax({
@@ -76,4 +77,12 @@ $(document).ready(function() {
       }
     })    
   })
+
+
+  //GET UPDATE DETAILS FROM DETAILS PAGE
+//   $(function () {
+//     $("#update_from_details").click(function () {
+//       console.log("Hello");
+//     });
+//   });
 });

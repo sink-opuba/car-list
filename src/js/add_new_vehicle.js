@@ -1,6 +1,4 @@
 $(document).ready(function() {
-    //convert first-letter to uppercase
-    // const upper = str => (str = str[0].toUpperCase() + str.slice(1));
     const BASE_URI = "http://localhost:3000";
     
     //display logout box
@@ -8,8 +6,7 @@ $(document).ready(function() {
         $('.logout-box').css("display", "block");
     }
 
-    $("#add_car_button").click(function(event) {
-        event.preventDefault();
+    const getFieldValue = () => {
         const make = document.querySelector(".car_make").value;
         const model = document.querySelector(".car_model").value;
         const year = document.querySelector(".year_of_manufacture").value;
@@ -25,8 +22,8 @@ $(document).ready(function() {
         const imageUrl = imageValue.replace("C:\\fakepath\\", "/images/");
         const transmission = document.querySelector(".transmission_type").value;
         const description = document.querySelector(".description").value;
-        
-        const data = {
+
+        return {
             make,
             model,
             year,
@@ -42,7 +39,13 @@ $(document).ready(function() {
             transmission,
             description
         }
-//ADD A NEW CAR TO THE DATABASE
+    }
+
+//ADD(CREATE) A NEW CAR TO THE DATABASE
+
+    $("#add_car_button").click(function(event) {
+        event.preventDefault();     
+        const data = getFieldValue();
         $(function() {
             $.ajax({
                 url: `${BASE_URI}/cars`,
@@ -54,5 +57,27 @@ $(document).ready(function() {
             });
         })
     });
+
+    //UPDATE EXISTING CAR DETAILS
+    $("#update_car_button").click(function(event) {
+        event.preventDefault();
+       const { id } = JSON.parse(localStorage.car);
+        const data = getFieldValue();
+        $(function() {
+            $.ajax({
+                url: `${BASE_URI}/cars/${id}`,
+                method: 'PUT',
+                data,
+                success: function() {
+                    alert('Your car details have been successfully updated.');
+                },
+                error: function(err) {
+                    console.log('Error :', err);
+                }
+            })
+        })
+    })
 });
+
+
 //add new vehicle form field value;

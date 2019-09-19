@@ -25,8 +25,9 @@
     color: #777777;
 }
 .btn-demo {
-    border:0.15rem solid rgb(39, 62, 80);
-    color: #fff;    
+    border:0.15rem solid #273e50;
+    /* color: #fff;     */
+    color: #183246;
 }
 .btn-demo:hover {
     background-color:rgb(39, 62, 80);

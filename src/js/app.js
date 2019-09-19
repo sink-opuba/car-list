@@ -1,12 +1,10 @@
-
 $(document).ready(function() {
   const BASE_URI = "http://localhost:3000/";
-  
+
   //Display logout button
   if (localStorage.email) {
-    $('.logout-box').css("display", "block");
+    $(".logout-box").css("display", "block");
   }
-
 
   const formatCars = car => {
     return ` <div class="card m-4 car-card" data-car='${JSON.stringify(car)}'>
@@ -43,14 +41,24 @@ $(document).ready(function() {
     localStorage.setItem("car", JSON.stringify(car));
   };
 
-
   //LOGOUT AND CLEAR THE STORAGE
   $(function() {
-    $('.logout-btn').click(function() {
+    $(".logout-btn").click(function() {
       localStorage.clear();
+    });
+  });
+
+  //ADD A NEW CAR BUTTON ON HOME PAGE
+  $(function() {
+    $("#new_car_btn").click(function() {
+      let a = document.querySelector('#new_car_btn');
+      if(localStorage.email) {
+        a.href = "add_new_vehicle.html";
+      } else {
+        a.href = "login.html";
+      }
     })
   })
-
 
   //grab cars from the data base
   const getCars = async () => {

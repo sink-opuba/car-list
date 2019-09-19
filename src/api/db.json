@@ -169,23 +169,6 @@
       "mileage": "10000",
       "transmission": "Automatic",
       "description": "This is 2018 BMW X6 Foreign used Location is Port Harcourt Mileage is 10k km"
-    },
-    {
-      "make": "Bentley",
-      "model": "80EX",
-      "year": "2015",
-      "bodyType": "Station Wagons",
-      "fuel": "3",
-      "price": "598000",
-      "colorType": "Dark Green",
-      "interior": "Cloth",
-      "condition": "Brand New",
-      "engineSize": "5",
-      "imageUrl": "/images/inventory006.jpg",
-      "mileage": "",
-      "transmission": "",
-      "description": "A new addition to the list",
-      "id": 11
     }
   ],
   "users": [
