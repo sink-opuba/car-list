@@ -1,6 +1,12 @@
 
 $(document).ready(function() {
   const BASE_URI = "http://localhost:3000/";
+  
+  //Display logout button
+  if (localStorage.email) {
+    $('.logout-box').css("display", "block");
+  }
+
 
   const formatCars = car => {
     return ` <div class="card m-4 car-card" data-car='${JSON.stringify(car)}'>
@@ -36,6 +42,15 @@ $(document).ready(function() {
     const car = JSON.parse(path[2].dataset.car);
     localStorage.setItem("car", JSON.stringify(car));
   };
+
+
+  //LOGOUT AND CLEAR THE STORAGE
+  $(function() {
+    $('.logout-btn').click(function() {
+      localStorage.clear();
+    })
+  })
+
 
   //grab cars from the data base
   const getCars = async () => {

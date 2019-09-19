@@ -1,5 +1,7 @@
 //retrieve object from localstorage and populate DOM
  const car = JSON.parse(localStorage.car);
+
+const BASE_URI = "http://localhost:3000";
  
  //Inject formated HTML to specific portions of page 
  const carHeader = `<h1>
@@ -54,3 +56,24 @@ const carDetails = `<div class="car-image">
 
 $('.details-box').append(carDetails)
 
+if(localStorage.email) {
+  $('.admin_box').css("visibility", "visible");
+  $('.logout-box').css("display", "block");
+}
+
+
+$(document).ready(function() {
+  $('#delete_car_button').click(function(){
+   console.log('button clicked')
+    $.ajax({
+      url: `${BASE_URI}/cars/${car.id}`,
+      method: 'DELETE',
+      success: function() {
+        window.location.replace('index.html');
+      },
+      error: function(err) {
+        console.log('Error : ', err)
+      }
+    })    
+  })
+});

@@ -18,7 +18,8 @@ $(document).ready(function() {
                     const user = users.some(user => user.email == data.email && user.password == data.password);
                     if (user) {
                         window.location.replace("add_new_vehicle.html");
-                        sessionStorage.setItem('email', user.email);
+                        localStorage.setItem('email', `${data.email}`);
+                        
                     } else {
                         $('.login-info').css('display', 'block');
                         return;
@@ -57,6 +58,7 @@ $(document).ready(function() {
                             data,
                             success: function() {
                                 window.location.replace("add_new_vehicle.html");
+                                localStorage.setItem('email', `${data.email}`);
                             }
                         });
                     },

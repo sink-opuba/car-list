@@ -2,6 +2,11 @@ $(document).ready(function() {
     //convert first-letter to uppercase
     // const upper = str => (str = str[0].toUpperCase() + str.slice(1));
     const BASE_URI = "http://localhost:3000";
+    
+    //display logout box
+    if(localStorage.email) {
+        $('.logout-box').css("display", "block");
+    }
 
     $("#add_car_button").click(function(event) {
         event.preventDefault();
