@@ -200,6 +200,18 @@
       "password": "skin",
       "isAdmin": "false",
       "id": 2
+    },
+    {
+      "email": "",
+      "password": "",
+      "isAdmin": "false",
+      "id": 3
+    },
+    {
+      "email": "admin@yahoo.com",
+      "password": "admin",
+      "isAdmin": "false",
+      "id": 4
     }
   ]
 }

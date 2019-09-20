@@ -35,7 +35,7 @@
           <div class="form-row ml-5">
             <div class="form-group">
               <label for="car_make">Make</label>
-              <select class="form-control car_make"
+              <select required="required" class="form-control car_make"
               name="car_make" id="car_make">
               <option selected="selected" value="">Make</option>
               <optgroup label="Popular">
@@ -114,7 +114,7 @@
           </div>
           <div class="form-group ml-5">
             <label for="car_model">Model</label>
-            <input type="text" class="form-control car_model" id="car_model" />
+            <input type="text" required="required" class="form-control car_model" id="car_model" />
           </div>
           
         </div>
@@ -200,7 +200,7 @@
           
           <div class="form-group ml-5">
             <label for="bodyType">Body Type</label>
-            <select id="bodyType" required="" class="form-control body_type" name="bodyType">
+            <select id="bodyType" required="required" class="form-control body_type" name="bodyType">
               <option value="" selected="selected">Please Select</option>
               <option value="Saloons">Saloons</option>
               <option value="Hatchbacks">Hatchbacks</option>
