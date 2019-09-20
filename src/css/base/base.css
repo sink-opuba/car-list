@@ -1,0 +1,18 @@
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 70%; /*This defines what 1rem is --- the same as 10px;*/
+    box-sizing: border-box
+}
+body {
+    overflow-x: hidden;
+    background: url(../../images/bg_texture.jpg);
+}

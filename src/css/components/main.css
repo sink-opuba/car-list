@@ -1,0 +1,15 @@
+.car-group {
+    display: flex;
+    flex-flow: row wrap;
+    /* margin: 5rem 15rem; */
+    justify-content: center;
+}
+.car-card {
+    max-width: 30rem;
+    min-width: 30rem;
+}
+.car-card-img {
+  display: inline-block;
+  height: 18rem;
+}
+

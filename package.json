@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sink-opuba/name-later.git"
+    "url": "git+https://github.com/sink-opuba/car-list.git"
   },
   "author": "Sinkopere Opuba",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sink-opuba/name-later/issues"
+    "url": "https://github.com/sink-opuba/car-list/issues"
   },
-  "homepage": "https://github.com/sink-opuba/name-later#readme"
+  "homepage": "https://github.com/sink-opuba/car-list#readme"
 }
