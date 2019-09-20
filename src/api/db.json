@@ -52,21 +52,21 @@
       "description": "Extremely clean Lexus RX 350, Cleared in Lagos, no accident and duty fully paid."
     },
     {
-      "id": 4,
-      "make": "Lexus",
-      "model": "RX",
-      "year": 2008,
-      "bodyType": "4 Wheel Drives & SUVs",
-      "fuel": "Petrol",
-      "price": "3,500,000",
-      "colorType": "Silver",
-      "interior": "Leather",
-      "condition": "Foreign Used",
-      "engineSize": "6",
-      "imageUrl": "images/inventory004.jpg",
-      "mileage": "91010",
-      "transmission": "Automatic",
-      "description": "Car has 6 plugs engine Reverse camera Alloy wheels Full leather interior Formica finishing Dual air condition control Rear air condition vents Custom duty fully pain"
+      "make": "",
+      "model": "",
+      "year": "",
+      "bodyType": "",
+      "fuel": "",
+      "price": "",
+      "colorType": "",
+      "interior": "",
+      "condition": "",
+      "engineSize": "",
+      "imageUrl": "",
+      "mileage": "",
+      "transmission": "",
+      "description": "",
+      "id": 4
     },
     {
       "id": 5,
@@ -169,6 +169,23 @@
       "mileage": "10000",
       "transmission": "Automatic",
       "description": "This is 2018 BMW X6 Foreign used Location is Port Harcourt Mileage is 10k km"
+    },
+    {
+      "make": "BMW",
+      "model": "80EX",
+      "year": "2014",
+      "bodyType": "4 Wheel Drives",
+      "fuel": "1",
+      "price": "2,000,000",
+      "colorType": "White",
+      "interior": "",
+      "condition": "Locally Used",
+      "engineSize": "4",
+      "imageUrl": "images/inventory008.jpg",
+      "mileage": "304000",
+      "transmission": "",
+      "description": "This is a great car.",
+      "id": 11
     }
   ],
   "users": [
